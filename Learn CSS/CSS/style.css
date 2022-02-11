@@ -1,0 +1,161 @@
+
+body{
+    background: url("/img/background\ image.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+}
+
+h2{
+    display: inline;
+    color: rgb(242, 255, 0);
+    border: 2px dotted rgb(0, 255, 145);
+}
+
+.header a{
+    display: inline-block;
+    border: 3px solid black;
+    color: wheat;
+
+    text-decoration:none ;
+
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 25px;
+    text-shadow: 4px 4px blue;
+}
+
+.navbar{
+    max-width: 500px;
+    border: 15px solid rgb(172, 125, 54);
+    background-color: rgb(140, 135, 133);
+    padding: 15px;
+    margin: auto;
+    font-family: 'Redressed', cursive;
+    
+}
+.navbar p{
+    text-indent: 50px;
+    text-align: justify;
+    
+}
+
+#innderLink{
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 25px;
+    background-color:rgb(19, 168, 32) ;
+    border-radius: 15px 15px;
+    text-decoration: none;
+    
+}
+#innderLink:link{
+    background-color:rgb(220, 220, 23) ;
+    color: wheat;
+    
+}
+
+#innderLink:visited{
+  
+    background-color:rgb(168, 19, 19) ;
+    color: wheat;
+    
+}
+
+#innderLink:hover{
+  
+    background-color:rgb(168, 19, 126) ;
+    color: wheat;
+    
+}
+
+#innderLink:checked{
+  
+    background-color:rgb(34, 19, 168);
+    color: wheat;
+}
+
+.listclass{
+    width: 30%;
+    margin: auto;
+    background-color: rgb(0, 208, 255);
+    padding: 50px;
+    margin-top:100px ;
+
+   visibility: hidden;
+}
+
+.listclass ol li{
+
+    color: rgb(246, 250, 9);
+    font-size: 25px;
+    padding: 10px;
+    background-color:lightgreen ;
+
+}
+
+.mytable{
+    padding: 200px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+.mytable:hover{
+    opacity: 0.5;
+}
+
+.tableContainer{
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    background-color: lightsteelblue;
+
+}
+
+.tableContainer table{
+    border:2px solid black ;
+    border-collapse: collapse;
+}
+.tableContainer table th{
+    border:2px solid black ;
+    padding: 15px;
+    background-color: green;
+    color: wheat;
+    
+}
+
+.tableContainer table td{
+    border:2px solid black ;
+    padding: 15px;
+    background-color:rgb(14, 180, 158);
+    color: wheat;  
+}
+
+.mydisplay {
+    padding: 25px;
+    border: 3px solid rgb(248, 196, 99);
+    background-color: rgb(128, 112, 81);
+    position: sticky;
+    top: 0;
+
+}
+
+.float{
+
+    border: 3px solid red;
+    overflow: auto;
+    
+}
+
+.float p{
+
+  text-align: center;
+  color: rgb(252, 25, 214);
+}
+
+#myimg{
+    float: left;
+}
+    

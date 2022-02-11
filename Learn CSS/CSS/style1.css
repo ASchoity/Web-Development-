@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to right,#757575,black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh ;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.akhi{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 8rem;
+    line-height: 110px;
+}
+
+.wave{
+    background: url("/img/water.jpg");
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200px 150px;
+    background-repeat: repeat-x;
+    animation: wave 1s infinite linear,
+        akhi 3s infinite linear alternate ;
+}
+
+@keyframes wave{
+    0%{
+        background-size: 200px 0px ;
+    }
+    100%{
+        background-size: 200px 200px ;
+    }
+}
+
+@keyframes akhi{
+    0%{
+        background-position: 1 bottom ;
+    }
+    100%{
+        background-position: 100px bottom ;
+    }
+}
